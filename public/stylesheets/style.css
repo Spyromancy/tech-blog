@@ -194,28 +194,30 @@ main {
   margin-bottom: 2%;
   line-height: 150%;
 }
-.title {
+.title a,
+.card-header {
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
   background-color: var(--dark);
-}
-.title a,
-.title span {
   color: var(--primary);
   text-decoration: none;
-}
-.title a {
   font-weight: bold;
   font-size: larger;
 }
 
-.title span {
-  font-style: italic;
-  font-size: 90%;
+.card-header:visited {
+  color: var(--secondary);
 }
 
-.post .body {
+.title span {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 80%;
+  padding: 15px 20px;
+}
+
+.card-body {
   border: var(--dark);
   border-style: solid;
   padding: 15px;
@@ -224,6 +226,18 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  text-decoration: none;
+}
+
+.dashboard-posts {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.dashboard-new-post {
+  display: flex;
+  align-items: bottom;
 }
 
 .upvote-btn {
