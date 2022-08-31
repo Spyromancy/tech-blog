@@ -20,7 +20,7 @@ This is a live application and does not need installed.
 ## Usage
 
 https://rocky-cliffs-65876.herokuapp.com/
-![alt text](./assets/images/screenshot.png)
+![alt text](./assets/images/screenshot.PNG)
 This project is meant to be used as a tech blog that allows users to interact with each other by making posts and commenting on those posts
 
 ## Contributing
